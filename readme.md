@@ -41,31 +41,28 @@ exit;
 
 # Import file ipam_db.sql ke dalam database
 mysql -u root -p ipam_db < ipam_db.sql
-
+```
 (Masukkan password database Anda jika diminta. Jika tidak menggunakan password, Anda bisa langsung menekan Enter).
 
-2. Konfigurasi Koneksi Database
-Sesuaikan pengaturan koneksi database pada file kode proyek Anda jika diperlukan:
-
-PHP
+### 2. Konfigurasi Koneksi Database
+Sesuaikan pengaturan koneksi database pada file db.php Anda jika diperlukan:
+```php
 $host = "localhost";
 $user = "root";       // Sesuaikan username database anda
 $pass = "";           // Sesuaikan password database anda
 $db   = "ipam_db";    // Sesuaikan nama database anda
-3. Jalankan Aplikasi
+```
+### 3. Jalankan Aplikasi
 Buka browser Anda dan akses melalui alamat:
 
-Plaintext
+```
 http://localhost/iseng-ip-scanner/
-📁 Struktur File Utama
-scanner.php - Fitur utama pemindai IP (Live Scanner IP).
+```
 
-subnet.php - Pengelolaan blok subnet.
-
-organization.php - Manajemen informasi organisasi.
-
-db.php - File koneksi database.
-
-ipam_db.sql - Berkas cadangan struktur & data database.
-
-demo.png - Tangkapan layar tampilan aplikasi.
+### 📁 Struktur File Utama
+- scanner.php - Fitur utama pemindai IP (Live Scanner IP).
+- subnet.php - Pengelolaan blok subnet.
+- organization.php - Manajemen informasi organisasi.
+- db.php - File koneksi database.
+- ipam_db.sql - Berkas cadangan struktur & data database.
+- demo.png - Tangkapan layar tampilan aplikasi.
