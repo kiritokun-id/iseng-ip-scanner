@@ -27,7 +27,7 @@ Buka Terminal atau Command Prompt di komputer Anda, lalu jalankan perintah berik
 
 ```bash
 # Clone repositori ke direktori web server (misalnya htdocs)
-git clone [https://github.com/kiritokun-id/iseng-ip-scanner.git](https://github.com/kiritokun-id/iseng-ip-scanner.git)
+git clone https://github.com/kiritokun-id/iseng-ip-scanner.git
 
 # Masuk ke folder proyek
 cd iseng-ip-scanner
